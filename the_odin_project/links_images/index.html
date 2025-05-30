@@ -7,18 +7,12 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>Links and Images</h1>
-        <p>This is a simple HTML page with links and images.</p>
-
-        <h2>Links</h2>
-        <ul>
-            <li><a href="https://www.example.com" target="_blank">Example Link</a></li>
-            <li><a href="https://www.google.com" target="_blank">Google</a></li>
-            <li><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></li>
-        </ul>
-
-        <h2>Images</h2>
-        <img src="image1.jpg" alt="Image 1" width="300">
-        <img src="image2.jpg" alt="Image 2" width="300">
+        <h1>Homepage</h1>
+        <img src="https://www.theodinproject.com/mstile-310x310.png" alt="The Odin Project Logo" height="310" width="310">
+        <br>
+        <!-- Absolute links to pages on other websites on the internet -->
+        <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">About The Odin Project</a>
+        <!-- Without noopener, the new tab could use JavaScript to interact with the original page, which is unsafe. noreferrer: The noreferrer value of the rel attribute provides both privacy and security. It prevents the new page from knowing where the user came from (hiding the referrer) and also includes the behavior of noopener, preventing the new page from accessing the original page. -->
+         <a href ="pages/about.html">About</a>
     </body>
 </html>
